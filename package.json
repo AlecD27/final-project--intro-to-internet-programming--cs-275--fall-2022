@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AlecD27/final-project--intro-to-internet-programming--cs-275--fall-2022/issues"
   },
-  "homepage": "https://github.com/AlecD27/final-project--intro-to-internet-programming--cs-275--fall-2022#readme"
+  "homepage": "https://github.com/AlecD27/final-project--intro-to-internet-programming--cs-275--fall-2022#readme",
+  "devDependencies": {
+    "eslint": "^8.29.0"
+  }
 }
