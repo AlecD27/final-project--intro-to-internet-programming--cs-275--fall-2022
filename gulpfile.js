@@ -48,7 +48,7 @@ let compressHTML = () => {
 let compressCSS = () => {
     return src(`styles/main.css`)
         .pipe(cssCompressor({compatibility: `ie8`}))
-        .pipe(dest('prod/css'));
+        .pipe(dest(`prod/css`));
 };
 
 let serve = () => {
