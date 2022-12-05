@@ -1,7 +1,6 @@
 window.onload = () => {
     let menuActivate = document.getElementById(`menu`);
     let menu = document.querySelector(`nav`);
-    let width = window.innerWidth;
     // let modalActivate = document.getElementById(`modal`); // selecting my 2 buttons
 
     // the below functions enable user interaction
