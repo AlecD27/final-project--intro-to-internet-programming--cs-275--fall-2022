@@ -46,9 +46,9 @@ let compressHTML = () => {
 };
 
 let compressCSS = () => {
-    return src('styles/main.css')
-      .pipe(cssCompressor({compatibility: 'ie8'}))
-      .pipe(dest('prod/css'));
+    return src(`styles/main.css`)
+        .pipe(cssCompressor({compatibility: `ie8`}))
+        .pipe(dest('prod/css'));
 };
 
 let serve = () => {
@@ -64,13 +64,13 @@ let serve = () => {
             ]
         }
     });
-}
+};
 
-    watch(`main.js`, series(lintJS, transpileJSForDev))
-        .on(`change`, reload);
+watch(`main.js`, series(lintJS, transpileJSForDev))
+    .on(`change`, reload);
 
-    watch(`main.css`, series(lintCSS, compressCSS))
-        .on(`change`, reload);
+watch(`main.css`, series(lintCSS, compressCSS))
+    .on(`change`, reload);
 
 exports.lintJS = lintJS;
 exports.lintCSS = lintCSS;
