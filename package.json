@@ -1,0 +1,19 @@
+{
+  "name": "final-project--intro-to-internet-programming--cs-275--fall-2022",
+  "version": "1.0.0",
+  "description": "☞ **Plagiarism in any form will result in failing the entire course. You’ve been duly warned.** ☜\r * **Do not start this project until you have read these instructions carefully.**\r * **Read these instructions repeatedly until you understand, then begin your project. If something is not clear, ask.**",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlecD27/final-project--intro-to-internet-programming--cs-275--fall-2022.git"
+  },
+  "author": "Alec N Dergachev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlecD27/final-project--intro-to-internet-programming--cs-275--fall-2022/issues"
+  },
+  "homepage": "https://github.com/AlecD27/final-project--intro-to-internet-programming--cs-275--fall-2022#readme"
+}
