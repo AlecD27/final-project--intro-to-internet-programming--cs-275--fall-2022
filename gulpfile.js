@@ -11,13 +11,13 @@ const { src, dest, series, watch } = require(`gulp`),
 let browserChoice = `default`;
 
 let lintJS = () => {
-    return src([`js/main.js`])
+    return src([`scripts/main.js`])
         .pipe(jsLinter())
         .pipe(jsLinter.formatEach(`compact`));
 };
 
 let lintCSS = () => {
-    return src([`css/style.css`])
+    return src([`styles/main.css`])
         .pipe(CSSLinter({
             failAfterError: false,
             reporters: [
@@ -27,13 +27,13 @@ let lintCSS = () => {
 };
 
 let transpileJSForDev = () => {
-    return src(`js/main.js`)
+    return src(`scripts/main.js`)
         .pipe(babel())
         .pipe(dest(`temp/js`));
 };
 
 let transpileJSForProd = () => {
-    return src(`js/main.js`)
+    return src(`scripts/main.js`)
         .pipe(babel())
         .pipe(jsCompressor())
         .pipe(dest(`prod/js`));
