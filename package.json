@@ -17,6 +17,17 @@
   },
   "homepage": "https://github.com/AlecD27/final-project--intro-to-internet-programming--cs-275--fall-2022#readme",
   "devDependencies": {
-    "eslint": "^8.29.0"
+    "eslint": "^8.29.0",
+    "@babel/core": "7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "gulp": "^4.0.2",
+    "gulp-html": "5.0.0",
+    "gulp-htmlmin": "5.0.1",
+    "gulp-stylelint": "13.0.0",
+    "browser-sync": "2.27.10",
+    "gulp-uglify": "3.0.2",
+    "gulp-clean-css": "4.3.0",
+    "gulp-eslint": "6.0.0",
+    "gulp-babel": "8.0.0"
   }
 }
