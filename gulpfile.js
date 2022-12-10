@@ -65,6 +65,8 @@ let serve = () => {
         }
     });
 };
+watch(`index.html`, series(compressHTML))
+    .on(`change`, reload);
 
 watch(`main.js`, series(lintJS, transpileJSForDev))
     .on(`change`, reload);
