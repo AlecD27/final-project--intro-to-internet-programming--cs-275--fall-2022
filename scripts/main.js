@@ -28,4 +28,10 @@ window.onload = () => {
             body.classList.remove(`no-scroll`);
         }
     });
+
+    document.addEventListener(`keydown`, (e) => {
+        if (e.key === `Escape` && !modalSpace.classList.contains(`hidden`)) {
+            modalSpace.click();
+        }
+    });
 };
